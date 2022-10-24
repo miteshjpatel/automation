@@ -3,9 +3,9 @@ from datetime import datetime
 from docxtpl import DocxTemplate
 
 doc = DocxTemplate("template-manager-info.docx")
-my_name = "Frank Andrade"
+my_name = "Mitesh Patel"
 my_phone = "(123) 456-789"
-my_email = "frank@gmail.com"
+my_email = "test@gmail.com"
 my_address = "123 Main Street, NY"
 today_date = datetime.today().strftime("%d %b, %Y")
 
